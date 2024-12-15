@@ -1,0 +1,34 @@
+
+
+// Controleer of de gebruiker niet is ingelogd
+    // Gebruiker is niet ingelogd
+        // Redirect naar login.php
+
+// Maak verbinding met de database
+
+// Haal een ID op uit de URL (GET)
+    // Check of het ID aanwezig is en geldig
+        // Als ID niet aanwezig of ongeldig is
+            // Redirect naar index.php
+
+// Haal gegevens op uit de database op basis van het ID (GET)
+    // Als er geen resultaten worden gevonden
+        // Redirect naar index.php
+
+// Controleer of de gebruiker het formulier heeft ingediend (POST)
+    // Valideer de ingevoerde gegevens
+        // Controleer op lege velden of verkeerde invoer
+        // Voorkom SQL-injecties
+
+    // Als er geen validatiefouten zijn
+        // Stel de UPDATE-query op en voer deze uit
+        // Controleer of de update succesvol was
+            // Als succesvol
+                // Redirect naar index.php
+            // Als niet succesvol
+                // Toon een foutmelding
+
+    // Als er validatiefouten zijn
+        // Toon de fouten aan de gebruiker en behoud bestaande gegevens (POSTBACK)
+
+// Sluit de verbinding met de database

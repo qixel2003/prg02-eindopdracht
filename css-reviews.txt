@@ -1,0 +1,51 @@
+#reviews-main {
+    margin: 0px 10vw;
+}
+
+#review-title {
+    font-size: 3rem;
+    margin: 7vh 0px 5vh;
+}
+
+#main-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.rating-container {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.solo-rating-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.progress-bar-border {
+    background-color: lightgrey;
+    width: 16vw;
+    height: 3vh;
+}
+
+.bar-5 {
+    background-color: rgb(206, 126, 0);
+    height: 3vh;
+    width: 66%;
+}
+
+.review-item-container {
+    display: flex;
+    width: 40vw;
+    flex-direction: column;
+    padding: 0px 1vw;
+}
+
+.review-container {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid darkgrey;
+}

@@ -1,0 +1,34 @@
+character crud list:
+
+create:
+-put the characters that the user makes into the system
+read:
+-read the data over the characters about their name, class, primary_weapon and secondary_weapon
+update:
+-update the weapons or data of the characters
+delete:
+-delete the characters IF the user that made them wants to
+
+Character List CRUD System:
+
+Create:
+
+-Functionality: Users can add new characters to the list.
+-Fields: Name, Class, Primary weapon, Secondary weapon .
+
+Read:
+
+-Functionality: Display detailed information about a specific characters.
+-Display: name, class, primary weapon, secondary weapon.
+
+Update:
+
+-Functionality: Users that made the character can update the weapons or data of a characters.
+-Fields: Modify name, class, primary weapon, secondary weapon.
+-Activity Log: Keep a log of updates to track the evolution of information over time.
+
+Delete:
+
+-Functionality: the user that made the character can delete to remove them from the character list.
+-Confirmation: Include a confirmation step to ensure intentional deletion.
+-Archiving: Archived characters can be moved to a separate section for historical reference.
